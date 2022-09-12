@@ -48,7 +48,7 @@ class _HomeScreenState extends State<HomeScreen> {
   BitmapDescriptor cabIcon = BitmapDescriptor.defaultMarker;
   LatLng current_user;
   PolylinePoints polylinePoints = PolylinePoints();
-  String googleAPiKey = "AIzaSyAFWVUscqqN7j23ijeRBEEburf6cen539k";
+  String googleAPiKey = "";
   List<LatLng> polylineCoordinates = [];
   Map<PolylineId, Polyline> polylines = {};
   ServiceObject _currentService = ServiceObject(

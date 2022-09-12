@@ -42,7 +42,7 @@ class _OrderDetailsScreenState extends State<OrderDetailsScreen> {
   LatLng current_user;
   PolylinePoints polylinePoints = PolylinePoints();
   BitmapDescriptor cabIcon = BitmapDescriptor.defaultMarker;
-  String googleAPiKey = "AIzaSyAFWVUscqqN7j23ijeRBEEburf6cen539k";
+  String googleAPiKey = "";
   List<LatLng> polylineCoordinates = [];
   Map<PolylineId, Polyline> polylines = {};
   List<Marker> _markers = <Marker>[];
